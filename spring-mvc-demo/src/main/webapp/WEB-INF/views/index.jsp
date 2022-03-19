@@ -8,6 +8,7 @@
 </head>
 <body>
 	<h3>Hello Student</h3>
-	<a href="student/showForm">student form</a>
+	<a href="student/showForm">student form</a> <br> <br>
+	<a href="customer/showForm">customer form</a>
 </body>
 </html>

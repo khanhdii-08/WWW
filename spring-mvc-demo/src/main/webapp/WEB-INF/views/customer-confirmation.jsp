@@ -9,20 +9,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-	The Frist Name: ${student.firstName }
-	<br>
-	<br> The Last Name: ${student.lastName }
-	<br>
-	<br> Country: ${student.country }
-	<br>
-	<br> Favorite Language: ${student.favoriteLanguage }
-	<br>
-	<br>
-
-	<ul>
-		<c:forEach var="temp" items="${student.operatingSystems }">
-			<li>${temp }</li>
-		</c:forEach>
-	</ul>
+	<c:forEach var="temp" items="${customers }">
+		<ul>
+			<li>First Name: ${temp.firstName }</li>
+			<li>Last Name: ${temp.lastName }</li>
+			<li>Sex: ${temp.sex }</li>
+			<li>Address: ${temp.address }</li>
+			<li>Email: ${temp.email }</li>
+		</ul>
+			<hr> <br>
+	</c:forEach>
+	
+	<a href="showForm">Trở lại trang đăng ký</a>
 </body>
 </html>
