@@ -37,7 +37,7 @@
 								<th>First Name</th>
 								<th>Last Name</th>
 								<th>Email</th>
-								<!-- <th>Image</th> -->
+								<th>Image</th>
 								<th>Action</th>
 							</tr>
 						</thead>
@@ -47,7 +47,7 @@
 									<td>${tempStudent.firstName}</td>
 									<td>${tempStudent.lastName}</td>
 									<td>${tempStudent.email}</td>
-								<!-- <td><img style="height: 70px; width: 100px;"  src=images/${tempStudent.image} alt=""></td> -->	
+									<td><img style="height: 70px; width: 100px;"  src=images/${tempStudent.image} alt=""></td>	
 									<td><a href="load?id=${tempStudent.id}"  >Update</a> | <a href="delete?id=${tempStudent.id}">Delete</a></td>
 								</tr>
 							</c:forEach>
